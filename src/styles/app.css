@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "variables.css";
+@import "common.css";
+
+/* Components */
+@import "components/wrapper.css";
+@import "components/voting-machine.css";
+@import "components/display.css";
+@import "components/numeric-keypad.css";
+@import "components/keypad.css";
+@import "components/btn.css";
+@import "components/candidate-list.css";
+@import "components/sidebar.css";

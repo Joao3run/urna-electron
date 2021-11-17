@@ -1,0 +1,42 @@
+.btn {
+    margin: 10px;
+    background-color: black;
+    color: black;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-size-small {
+    width: 50px;
+}
+
+.btn-size-large {
+    width: 100%;
+}
+
+.btn-size-default {
+    width: 100%;
+}
+
+.btn-color-white {
+    background-color: white;
+}
+
+.btn-color-black {
+    color: white;
+    background-color: black;
+}
+
+.btn-color-danger {
+    background-color: var(--color-danger);
+}
+
+.btn-color-success {
+    background-color: var(--color-success);
+}
+
+.btn-color-warning {
+    background-color: var(--color-warning);
+}

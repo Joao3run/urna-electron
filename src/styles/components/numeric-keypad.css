@@ -1,0 +1,10 @@
+.numeric-keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.numeric-keypad button:last-child {
+    grid-column: 2/ 3;
+}
