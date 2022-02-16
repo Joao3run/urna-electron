@@ -3,6 +3,7 @@
   "author": "BRN Sehir",
   "version": "2.0.0",
   "main": "./.webpack/main/index.js",
+  "description": "Electronic voting simulator",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -71,7 +72,7 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "name": "Urna Electron",
+        "name": "urna-electron",
         "executableName": "urna-electron",
         "icon": "assets/icon",
         "extraResource": [
@@ -103,7 +104,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "Urna Electron"
+            "name": "urna-electron"
           }
         },
         {
